@@ -15,6 +15,19 @@ body {
   background: #E55473;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
 /* Header section */
 header {
   width: 100%;
@@ -36,18 +49,11 @@ header {
 
 .left-side h1 {
   font-size: 80px;
+  color: #272727;
 }
 
 .left-side p {
-  color: rgba(39, 39, 39, 0.60);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.left-side a {
-  text-decoration: none;
-  color: white;
+  text-align: left;
 }
 
 .right-side {
@@ -79,12 +85,7 @@ header {
 }
 
 .featured p {
-  color: rgba(39, 39, 39, 0.60);
   max-width: 600px;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  text-align: center;
 }
 
 .products {
@@ -105,6 +106,7 @@ header {
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+  text-decoration: underline;
 }
 
 .img-bg {
@@ -152,13 +154,6 @@ header {
   width: 88px;
 }
 
-.highlight p {
-  color: rgba(39, 39, 39, 0.80);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 35px;
-}
-
 .hot-deal {
   margin-bottom: 128px;
   padding: 100px 0;
@@ -183,11 +178,7 @@ header {
 }
 
 .hot-deal p {
-  color: rgba(39, 39, 39, 0.60);
   text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
 }
 
 .hot-deal .right-side img {
@@ -241,13 +232,6 @@ header {
   font-weight: 800;
 }
 
-.coupon p {
-  color: rgba(39, 39, 39, 0.60);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .coupon div {
   padding-top: 32px;
   display: flex;
@@ -291,9 +275,6 @@ footer span {
 }
 
 footer p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
   max-width: 626px;
   text-align: center;
   color: rgba(255, 255, 255, 0.90);
@@ -304,4 +285,3 @@ footer p {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.40);
 }
-
