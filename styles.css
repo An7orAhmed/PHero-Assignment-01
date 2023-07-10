@@ -92,6 +92,7 @@ header {
   display: flex;
   column-gap: 24px;
   padding-top: 24px;
+  margin: 0 240px;
 }
 
 .product {
@@ -110,7 +111,7 @@ header {
 }
 
 .img-bg {
-  width: 464px;
+  width: 451px;
   height: 540px;
   border-radius: 300px 300px 0px 0px;
   display: flex;
@@ -150,6 +151,11 @@ header {
   row-gap: 24px;
 }
 
+.highlight p {
+  color: rgba(39, 39, 39, 0.80);
+  font-weight: 600;
+}
+
 .highlight img {
   width: 88px;
 }
@@ -187,7 +193,6 @@ header {
 }
 
 .instagram {
-  max-width: 0 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,12 +213,17 @@ header {
 .card {
   display: flex;
   column-gap: 24px;
+  margin: 0 240px;
+}
+
+.card img {
+  width: 332px;
 }
 
 .coupon {
   background-image: url("assets/Rectangle 9.png");
-  height: 449px;
   margin: 0 240px 128px;
+  height: 449px;
   display: flex;
   flex-direction: column;
   justify-content: center;
