@@ -15,6 +15,12 @@ body {
   background: #E55473;
 }
 
+h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -76,12 +82,6 @@ header {
   justify-content: center;
   align-items: center;
   row-gap: 24px;
-}
-
-.featured h3 {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
 }
 
 .featured p {
@@ -187,18 +187,13 @@ header {
 }
 
 .instagram {
+  max-width: 0 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 32px;
   margin-bottom: 128px;
-}
-
-.instagram h3 {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
 }
 
 .instagram p {
@@ -224,12 +219,6 @@ header {
   justify-content: center;
   align-items: center;
   row-gap: 16px;
-}
-
-.coupon h3 {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
 }
 
 .coupon div {
@@ -261,13 +250,10 @@ footer {
   align-items: center;
   flex-direction: column;
   row-gap: 24px;
-  color: rgba(255, 255, 255, 0.90);
 }
 
 footer h3 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: normal;
+  color: white;
 }
 
 footer span {
